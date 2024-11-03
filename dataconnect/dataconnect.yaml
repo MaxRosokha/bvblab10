@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "BOOM-VAN-BEHOEFTE-Web-Technologies-Web-Design"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "BOOM-VAN-BEHOEFTE-Web-Technologies-Web-Design-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

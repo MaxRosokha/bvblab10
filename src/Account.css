@@ -1,0 +1,120 @@
+.account-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.account-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-name {
+    font-size: 24px;
+    color: gold;
+    margin: 5px 0;
+}
+
+.user-location, .user-status {
+    font-size: 16px;
+    color: gray;
+    margin: 2px 0;
+}
+
+.coupon-button {
+    margin: 10px;
+    padding: 8px 16px;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.coupons-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.coupon {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.coupon:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.coupon-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.discount {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.code, .validity {
+    font-size: 14px;
+    color: #555;
+}
+
+.toggle-password-form {
+    color: rgba(218, 165, 32, 0.44);
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.toggle-password-form:hover {
+    color: rgb(218, 165, 32);
+}
+
+.update-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-form input {
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.update-form button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #DAA520;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-form button:hover {
+    background: #a37900;
+}
